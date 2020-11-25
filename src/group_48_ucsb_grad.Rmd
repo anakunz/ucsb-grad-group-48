@@ -24,7 +24,9 @@ ggplot(data = ucsb_grad,
   geom_col(aes(fill = ethnicity), position = "fill")+
   labs(
     x = "Year",
-    y = "Percent Ethnicity"
-  )
+    y = "Percent Ethnicity",
+    title = "UCSB grad population by % ethnicity (2008 - 2018)"
+  ) +
+  theme_minimal()
 ```
 
